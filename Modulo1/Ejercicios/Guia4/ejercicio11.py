@@ -1,3 +1,4 @@
 word = input("Ingresá una palabra: ")
-for i in range(len(word)-1, -1, -1):
+last_character_index = len(word) - 1
+for i in range(last_character_index, -1, -1):
     print(word[i])
