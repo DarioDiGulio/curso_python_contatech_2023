@@ -1,0 +1,11 @@
+@startuml
+
+class Person {
+    - nombre: str
+    - apellido: str
+    + Person(nombre: str, apellido: str): Person
+    + full_name(): str
+    + iniciales(): None
+}
+
+@enduml
