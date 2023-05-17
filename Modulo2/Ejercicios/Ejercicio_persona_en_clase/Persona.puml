@@ -1,0 +1,12 @@
+@startuml
+class Persona {
+    - nombre: str
+    - apellido: str
+
+    + __init__(): Persona
+    + poner_apellido(apellido: str): None
+    + poner_nombre(nombre: str): None
+    + obtener_nombre_completo(): str
+}
+
+@enduml
